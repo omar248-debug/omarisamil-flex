@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "open sans",sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.navbar a{
+    padding: 5px 20px;
+    color: darkslateblue;
+    border-radius: 20px;
+    text-decoration: none;
+    border: 1px solid blueviolet;
+    margin-right: 50px;
+}
+.navbar p {
+    color: darkslateblue;
+    font-size: 18px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.navbar p::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    display: block;
+    background:blueviolet;
+    transition: 0.5s;
+}
+p:hover::after{
+    width: 100%;
+}
+.content{
+    display: flex;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+.task{
+    width:50%;
+}
+.img{
+    width: 40%;
+}
+.task h1{
+    font-size: 3.3rem;
+}
+.hero{
+    max-width: 450px;
+    padding-left: 50px;
+    /* height: auto; */
+}
+.task p{
+    margin: 20px 0;
+}
+.one {
+    padding: 10px 70px;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    border: 1px solid black;
+    margin-right: 15px;
+    background: #fff;
+    cursor: pointer;
+}
+.two {
+    padding: 10px 20px;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    border: 1px solid black;
+    background: #fff;
+    cursor: pointer;
+}
+
+.right{
+    width: 60%;
+}
+.right img{
+    max-width: 400px;
+    height: auto;
+}
+.management{
+    width: 30%;
+}
+.management h1{
+    font-size: 2rem;
+}
+.management p{
+    margin-bottom: 20px;
+}
+.btn{
+    width: 100%;
+    padding: 5px ;
+    color: black;
+    border-radius: 15px;
+    background: #fff;
+    cursor: pointer;
+}
+.workflow{
+    width: 40%;
+}
+.manyph{
+    width: 50%;
+}
+.manyph img{
+    max-width: 600px;
+    height: auto;
+}
+.workflow h1{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.workflow p{
+    margin-bottom: 50px;
+}
+.apple{
+    margin-bottom: 20px;
+}
+
+.right-ph{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+.right-ph img{
+    width: 70px;
+    padding-top: 20px;
+}
+.self-ph1{
+    align-self: flex-end;
+}
+.count{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.count p{
+    font-size: 4rem;
+    color: darkslateblue;
+}
+.left-ph{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.left-ph img{
+    width: 75px;
+    padding-top: 20px;
+}
+.self-ph2{
+    align-self: flex-start;
+}
+.the-end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.end h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.end p{
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.end{
+    margin-bottom: 50px;
+}
